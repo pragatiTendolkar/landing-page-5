@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-list{
+    font-size: 20px;
+  }
+
+  .text-gradient {
+    background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #def9fa 0.89%,
+      #bef3f5 17.23%,
+      #9dedf0 42.04%,
+      #7de7eb 55.12%,
+      #5ce1e6 71.54%,
+      #33bbcf 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  } 
+
+
+  p{
+    font-size: 18px;
+  }
+
+
+
+
+
+
+
+/* ^^^^^^^^^^^^^^   Hero Section    ^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+.banner-heading{
+  font-size: 5rem;
+  line-height: 100px;
+}
+
+.count-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px 20px;
+  gap: 15px;
+}
+
+  .count-num{
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  .count-text{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-right: 60px;
+      border-right: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+.count-box:last-child .count-text{
+border: none;
+}
+
+
+
+/* ^^^^^^^^^^^^^^   End Hero Section    ^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+
+
+
+
+/* ^^^^^^^^^^^^^^   business Section    ^^^^^^^^^^^^^^^^^^^^^^ */
+
+.business-head{
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+.business-box{
+  padding: 5rem;
+}
+
+
+.business-btn{
+font-size: 18px;
+font-weight: 600;  
+border-radius: 8px;
+background: rgb(76,208,218);
+background: linear-gradient(0deg, rgba(76,208,218,1) 14%, rgba(175,252,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+
+.rewards{
+  width: 70%;
+  border-radius: 20px;
+}
+
+.rewards:nth-child(2){
+  background: rgb(20,15,28);
+  background: linear-gradient(0deg, rgba(20,15,28,1) 14%, rgba(53,51,62,1) 100%);
+}
+
+
+/* ^^^^^^^^^^^^^^   business Section    ^^^^^^^^^^^^^^^^^^^^^^ */
